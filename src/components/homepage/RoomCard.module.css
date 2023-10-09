@@ -1,0 +1,120 @@
+.featureItem {
+  flex-direction: row; /* stacks the icon and text vertically */
+  align-items: center; /* centers the content vertically */
+  justify-content: center;
+  display: flex;
+  gap: 0.7rem;
+  color: var(--main-color-blue-opacity);
+}
+
+.featuresContainer {
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  display: flex;
+  flex-wrap: wrap; /* allows the feature items to wrap into a new line */
+  justify-content: space-between; /* optional, spreads out items evenly */
+}
+
+.roomcardPicture {
+  width: 100%; /* This will make the image fill the entire width of the parent element */
+  height: 14rem;
+  object-fit: cover; /* This will prevent the image from stretching */
+  border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
+}
+
+.div {
+  position: relative;
+  line-height: 5.43rem;
+  font-weight: 500;
+  height: 3.61rem;
+  flex-shrink: 0;
+  font-size: 1.75rem;
+}
+.div,
+.month,
+.monthlyrent {
+  display: flex;
+  align-items: center;
+}
+.month {
+  position: relative;
+  line-height: 5.43rem;
+  color: var(--text-color);
+  width: 6.84rem;
+  height: 2.13rem;;
+  flex-shrink: 0;
+  font-weight: normal;
+}
+.monthlyrent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+
+
+.fluentpresenceAvailable20FIcon {
+  position: relative;
+  width: 2.19rem;
+  height: 1.71rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.roomdetails {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-mid);
+  flex-grow: 1; /* new property */
+}
+
+.booknowbutton {
+   align-self: stretch;
+   border-color: rgba(0, 0, 0, 0.25);
+   color: var(--color-white); /* or replace with your color code like #0000FF for blue */
+  background-color: var(--main-color-blue);
+  width: 100%;
+   border-width: 0.5px; /* increase or decrease this value to change the border thickness */
+   border-radius: var(--border-radius-small);
+  font-family: var(--secondary-font);
+  font-weight: bold;
+}
+
+.booknowbutton:hover{
+  background-color: var(--main-color-blue-opacity);
+}
+
+.roomcard {
+  border-radius: var(--border-radius-small);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* add this to stretch the wrapper */
+}
+
+
+.fullWidthLink {
+  width: 100%; /* ensure link takes full width */
+  display: inline-block; /* convert link from inline to block level element */
+}
+
+.monthlyrent {
+  font-family: var(--secondary-font);
+  flex-direction: row;
+  justify-content: flex-start;
+  font-weight: bold;
+  gap: 0; /* decrease this value to reduce the gap */
+  color: var(--main-color-green);
+}
+
+

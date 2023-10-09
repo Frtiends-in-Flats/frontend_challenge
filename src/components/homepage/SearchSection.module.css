@@ -1,0 +1,61 @@
+.heading{
+  color: var(--color-white);
+  padding: 0;
+}
+
+
+.searchsection {
+  border-radius: var(--border-radius-big);
+  flex-direction: column;
+  padding: var(--padding-126xl) 5rem var(--padding-126xl) 5rem;
+  background-image: url(/public/search-section-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  mix-blend-mode: normal;
+  text-align: center;
+  color: var(--color-white);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: var(--top-section-height);
+}
+
+
+.searchsection:before {
+  content: ""; /* This is required for the pseudo-element to show */
+  position: relative; /* This will position the pseudo-element relative to the parent */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; /* These 4 lines will stretch the pseudo-element to cover the entire div */
+
+  /* Create a soft overlay using the --main-color variable */
+  background-color: var(--main-color-blue);
+  opacity: 0.5; /* Adjust this to change the intensity of the overlay */
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .searchsection {
+    padding: 10vh;
+    box-sizing: border-box;
+  }
+
+  .heading {
+  font-size: 7vw;
+      line-hight: 10vw;
+      }
+
+
+  .subheading{
+    font-size: 5vw;
+    line-hight: 10vw;
+    }
+
+}
+
+
+
+
+

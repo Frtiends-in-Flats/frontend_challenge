@@ -1,0 +1,39 @@
+.headersection,
+.revisedVerFriendsInFlats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.headersection {
+    align-self: stretch;
+    height: 48.98rem;
+    flex-shrink: 0;
+    gap: 0.81rem;
+}
+.revisedVerFriendsInFlats {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    overflow: hidden;
+    gap: 0.75rem;
+}
+@media screen and (max-width: 1540px) {
+    .headersection {
+        align-self: stretch;
+        width: auto;
+        flex: 1;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .headersection {
+        flex: 1;
+    }
+}
+@media screen and (max-width: 420px) {
+    .headersection {
+        align-self: stretch;
+        width: auto;
+        flex: 1;
+    }
+}

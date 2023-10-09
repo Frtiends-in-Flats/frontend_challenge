@@ -1,0 +1,150 @@
+.weHelpStudents {
+  font-size: var(--big-fontsize);
+  font-weight: 500;
+  color: var(--main-color-blue);
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+
+
+.perfectFlatGuaranteeParent {
+  position: absolute;
+  top: 19rem; /* Adjust the top position as needed */
+  left: 0;
+  width: 28.51rem;
+  height: 6.85rem;
+  padding-top: 3rem; /* Reduce the top padding as needed */
+  padding-bottom: 10px; /* Reduce the bottom padding as needed */
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 1.5rem; /* Increase the font size as needed */
+}
+
+.perfectFlatsWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28.56rem;
+  height: 29.31rem;
+}
+.frameWrapper {
+  position: relative;
+  width: 26.56rem;
+  height: 27.31rem;
+  flex-shrink: 0;
+}
+.groupWrapper {
+  flex: 1;
+  height: 29.95rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Adjust to suit */
+}
+
+.featuresImage {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  flex-shrink: 0;
+  margin: 0; /* Add this line to remove any margin */
+}
+
+.ourMultilingualStaff {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backCircleOfIllust {
+  position: absolute;
+  top: 0.68rem;
+  left: 5.27rem;
+  width: 16.38rem;
+  height: 16.14rem;
+  margin: 0; /* Add this line to remove any margin */
+}
+
+.lowPrice {
+  position: relative;
+  width: 31.42rem;
+  height: 29.31rem;
+  flex-shrink: 0;
+}
+.featuressection,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+}
+.frameParent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--standard-font-size);
+  width: 85%;
+  margin: 0 auto; /* Add this line to center the container horizontally */
+}
+.featuressection {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: var(--standard-font-size);
+  color: var(--main-color-blue);
+}
+
+
+.hourServiceOfExpertBookingParent,
+.priceMatchPromiseParent {
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1650px) {
+  .frameParent,
+  .groupWrapper {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameParent {
+    width: auto;
+    flex: 1;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+    .weHelpStudents {
+    font-size: 6vw;
+    line-height: 8vw;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+  .frameWrapper, .perfectFlatGuaranteeParent, .featuresImage {
+    width: 100%;
+    height: auto;
+  }
+  .featuressection, .frameParent {
+    justify-content: center;
+    align-items: center;
+  }
+  .perfectFlatGuaranteeParent {
+    top: auto;
+    font-size: 1.2rem; /* Adjust as needed */
+  }
+  .featuresImage {
+    max-width: 90%;
+  }
+
+  h1 {
+     margin: 0 ;
+     padding: 0;
+   }
+}

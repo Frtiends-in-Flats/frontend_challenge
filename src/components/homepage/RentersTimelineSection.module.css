@@ -1,0 +1,115 @@
+.patrickPerkins3wyldrjxhEUnIcon {
+  position: relative;
+  border-radius: var(--border-radius-big);
+  width: 70vw;
+  height: 70vh;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+.bookYourPerfect,
+.takeTheHassle {
+  position: relative;
+  display: inline-block;
+}
+.bookYourPerfect {
+  font-weight: 400;
+  line-height: 5rem;
+  font-size: 4vw;
+  width: 40vw;
+}
+.takeTheHassle {
+  font-size: var(--standard-font-size);
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-red);
+  width: 40vw;
+}
+.renterstimeilinetextChild {
+  position: relative;
+  width: 20vw;
+  height: 10vh;
+  flex-shrink: 0;
+}
+.renterstimeilinetext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--big-fontsize);
+  color: var(--secondary-color-red);
+}
+.frameChild {
+  position: absolute;
+  top: 0.13rem;
+  left: 0;
+  width: 2.64rem;
+  height: 2.64rem;
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 0.76rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.27rem;
+  height: 2.95rem;
+}
+.bestpriceiconChild,
+.ellipseParent {
+  position: relative;
+  width: 2.64rem;
+  height: 2.95rem;
+  flex-shrink: 0;
+}
+.bestpriceiconChild {
+  width: 0.52rem;
+  height: 1.2rem;
+  margin-top: -0.31rem;
+}
+.bestpriceicon {
+  width: 2.81rem;
+  height: 2.95rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 2.55rem 0.18rem 0 0;
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.bestPrice {
+  position: relative;
+  font-weight: 500;
+}
+.flatsRentAre {
+  position: relative;
+  font-size: var(--standard-font-size);
+  color: var(--secondary-color-red);
+  display: inline-block;
+  width: 40vw;
+}
+.bestPriceParent {
+  width: 40vw;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--standard-font-size);
+  color: var(--secondary-color-red);
+}
+.timelinefeature {
+  margin: 0 !important;
+  position: absolute;
+  top: 50%;
+  right: 10vw;
+
+}

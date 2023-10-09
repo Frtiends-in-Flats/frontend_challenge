@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Page</title>
+    <script>
+    function loadChatwoot() {
+      const BASE_URL="https://app.chatwoot.com";
+      let g = document.createElement('script');
+      g.src = BASE_URL + "/packs/js/sdk.js";
+      g.defer = true;
+      g.async = true;
+      document.body.appendChild(g);
+      g.onload = function () {
+        window.chatwootSDK.run({
+          websiteToken: 'W6vXH8smnhABR3g3QagLZR5H',
+          baseUrl: BASE_URL
+        });
+      };
+    }
+    window.onload = loadChatwoot;
+  </script>
+</head>
+<body>
+</body>
+</html>

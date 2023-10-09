@@ -1,0 +1,80 @@
+.findOutHow,
+.testimonials {
+  position: relative;
+  line-height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.testimonials {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.findOutHow {
+  font-weight: 500;
+  justify-content: center;
+  font-size: var(--big-fontsize);
+
+}
+.testimonialcardrow {
+  width: 70%;
+  margin: auto;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Updated this line */
+  gap: var(--gap-66xl);
+  font-size: 1.36rem;
+  padding-top: 2rem;
+}
+.slidebarIcon {
+  position: relative;
+  width: 7.19rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+.testimonialsection {
+  background-image: url("/public/backgroundTestimonials.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-48xl);
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 1650px) {
+  .testimonialcardrow,
+  .testimonialsection {
+    height: auto;
+    flex-direction: column;
+    gap: var(--gap-81xl);
+    align-items: center;
+  }
+  .testimonialsection {
+    padding-top: 0;
+    box-sizing: border-box;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .findOutHow{
+    font-size: 6vw;
+    line-height: 8vw;
+
+    }
+}
+
+
