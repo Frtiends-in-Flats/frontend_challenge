@@ -60,4 +60,4 @@ We're excited to see your solution! This challenge is a great opportunity for yo
 Good luck!
 
 
-If you have any questions feel free to contact us via phone: +43 664 1405076 or email: jobs@friends-in-flats.at or office@friends-in-flats.at 
+If you have any questions feel free to contact us via email: jobs@friends-in-flats.at or office@friends-in-flats.at 
