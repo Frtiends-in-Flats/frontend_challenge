@@ -40,10 +40,11 @@ The "Frontend_challenge_schema.png" contains a small schematic overview of the w
 
 ## Submission
 
-1. Clone this repository.
-2. Implement your solution on the "master branch".
-3. Once you're done, merge with the "main" branch and then create a pull request to this repository.
-4. In your pull request description, provide a brief overview of your approach and any instructions needed to run your solution.
+1. Fork this public repository to your own GitHub account.
+2. Implement your solution on a new branch, e.g., "feature/my-solution" or "challenge-solution".
+3. Once you're satisfied with your implementation, push your changes to your forked repository.
+4. From your forked repository, create a pull request against the "main" branch of the original repository.
+5. In your pull request description, provide a brief overview of your approach and any instructions needed to run and test your solution..
 
 ## Evaluation Criteria
 
