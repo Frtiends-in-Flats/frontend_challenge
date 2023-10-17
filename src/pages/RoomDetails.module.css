@@ -22,3 +22,13 @@ h1{
   word-wrap: break-word;
   width: 100%;
 }
+
+/* back button */
+.btnBack{
+  align-self: flex-start;
+  border: none;
+  background-color: transparent;
+  font-size: var(--main-link);
+  color: var(--text-color);
+  text-decoration: none;
+}

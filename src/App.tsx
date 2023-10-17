@@ -3,9 +3,11 @@ import { Routes, Route, useNavigationType, useLocation, useNavigate } from "reac
 import RevisedVerFriendsInFlats from "./pages/RevisedVerFriendsInFlats";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { GoogleOAuthProvider } from "@react-oauth/google";
 import { useParams } from "react-router-dom";
 import RoomDetails from "./pages/RoomDetails";
+// import the new pages
+import SurveyMain from "./pages/SurveyMain";
+import  SurveyResultMain from "./pages/SurveyResultMain";
 
 function App() {
   const action = useNavigationType();
@@ -61,6 +63,8 @@ function App() {
         <Routes>
           <Route path="/roomDetails/:id" element={<RoomDetails />} />
           <Route path="/" element={<RevisedVerFriendsInFlats />} />
+          <Route path="/quiz" element={<SurveyMain />} />
+          <Route path="/result" element={<SurveyResultMain/>} />
         </Routes>
     </>
   );

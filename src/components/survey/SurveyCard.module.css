@@ -1,0 +1,105 @@
+/* create loader */
+.loader {
+    border: 0.6rem solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 0.6rem solid var(--main-color-blue);
+    width: 5rem;
+    height: 5rem;
+    animation: spin 2s linear infinite;
+    align-self: center;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* progress bar tag */
+.progressBar {
+    width: 100%;
+    border: none; /* reset default value */
+    block-size: 0.5rem; /* reset default value */
+    vertical-align: text-top; /* reset default value */
+    background-color: var(--card-question); /* apply for Firefox*/
+}
+/* For Chrome or Safari */
+progress::-webkit-progress-bar {
+    background-color: var(--card-question);
+}
+progress::-webkit-progress-value {
+    background-color: var(--main-color-blue);
+}
+/* For Firefox */
+progress::-moz-progress-bar {
+    background: var(--main-color-blue);
+}
+/* link back */
+.divBack a {
+    color: var(--text-color);
+    font-size: var(--main-link);
+}
+.divBack a:hover {
+    color: var(--main-color-blue-opacity);
+}
+/* article with the questions and prev button */
+.articleQuestions {
+    width: 100%;
+    background-color: var(--card-question-shadow);
+    border-radius: var(--border-radius-small);
+    border: 0.15rem solid var(--card-question);
+    box-shadow: 0 1px 8px 4px var(--card-question-shadow);
+}
+.articleQuestions p {
+    margin: 0;
+}
+/* div with UL/LI elements */
+.divQuestionInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2.3rem 0.6rem 1rem 0.6rem;
+}
+.questionText {
+    text-align: center;
+    font-weight: bold;
+}
+.ulAnswers {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+.liAnswer {
+    cursor: pointer;
+    list-style: none;
+    padding: 1.5rem;
+    margin: 0.5rem;
+    border: 0.15rem solid rgb(202, 214, 245);
+    border-radius: var(--border-radius-small);
+}
+.liAnswer:hover {
+    box-shadow: 0 1px 4px var(--main-color-blue-opacity);
+}
+.selectedLi {
+    background-color: var(--main-color-blue-selected-answer);
+    box-shadow: 0 1px 4px var(--main-color-blue-opacity);
+}
+/*  prev button */
+.btnPrev {
+    align-self: flex-start;
+    border: none;
+    background-color: transparent;
+    font-size: var(--main-link);
+    color: var(--text-color);
+    text-decoration: none;
+}
+/* screen until 560px  */
+@media screen and (max-width: 35rem) {
+    .divBack a,
+    .btnPrev {
+        font-size: 4.2vw;
+    }
+}

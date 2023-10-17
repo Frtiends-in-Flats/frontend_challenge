@@ -1,0 +1,8 @@
+/* center the child */
+.surveyStylesMain {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: calc(100vh - 1px); /* always appears on the center of the screen */
+    background-color: rgb(247, 253, 254);
+}

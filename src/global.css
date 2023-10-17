@@ -108,7 +108,7 @@ h1{
   --middle-big-font-size: 1.8rem;
   --standard-font-size: 1.5rem;
   --details-font-size: 0.88rem;
-
+  --main-link: 1.2rem;
 
   /* Colors */
   --color-white: #fff;
@@ -119,6 +119,10 @@ h1{
   --secondary-color-red: #e17473;
   --secondary-color-blue: #c0e9eb;
   --text-color: #000000;
+  --boder-link: #0e2354;
+  --main-color-blue-selected-answer: rgba(36, 65, 136, 0.2);
+  --card-question: rgb(202, 214, 245);
+  --card-question-shadow: rgba(202, 214, 245, 0.8);
 
 
   /* Gaps */

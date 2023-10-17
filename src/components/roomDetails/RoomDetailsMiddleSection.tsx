@@ -14,10 +14,10 @@ const RoomDetailsMiddleSection: FunctionComponent = () => {
 
   return (
     <div className={styles.roomdetailsmiddlesection}>
-        <iframe
+        {/* <iframe
           className={styles.roomtour}
           src={room.picture}
-        />
+        /> */}
     </div>
   );
 };
