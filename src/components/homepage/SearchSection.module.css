@@ -1,61 +1,85 @@
-.heading{
-  color: var(--color-white);
-  padding: 0;
+.heading {
+    color: var(--color-white);
+    padding: 0;
 }
-
 
 .searchsection {
-  border-radius: var(--border-radius-big);
-  flex-direction: column;
-  padding: var(--padding-126xl) 5rem var(--padding-126xl) 5rem;
-  background-image: url(/public/search-section-background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  mix-blend-mode: normal;
-  text-align: center;
-  color: var(--color-white);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: var(--top-section-height);
+    border-radius: var(--border-radius-big);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: var(--padding-126xl) 5rem var(--padding-126xl) 5rem; */
+    background-image: url(/public/search-section-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    mix-blend-mode: normal;
+    text-align: center;
+    color: var(--color-white);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: var(--top-section-height);
 }
-
 
 .searchsection:before {
-  content: ""; /* This is required for the pseudo-element to show */
-  position: relative; /* This will position the pseudo-element relative to the parent */
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; /* These 4 lines will stretch the pseudo-element to cover the entire div */
+    content: ""; /* This is required for the pseudo-element to show */
+    position: relative; /* This will position the pseudo-element relative to the parent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; /* These 4 lines will stretch the pseudo-element to cover the entire div */
 
-  /* Create a soft overlay using the --main-color variable */
-  background-color: var(--main-color-blue);
-  opacity: 0.5; /* Adjust this to change the intensity of the overlay */
+    /* Create a soft overlay using the --main-color variable */
+    background-color: var(--main-color-blue);
+    opacity: 0.5; /* Adjust this to change the intensity of the overlay */
 }
 
-
+/* main button */
+.mainLink {
+    font-family: var(--secondary-font);
+    text-decoration: none;
+    color: var(--text-color);
+    border-radius: var(--border-radius-small);
+    padding: var(--padding-mini) var(--padding-29xl);
+    font-size: var(--main-link);
+    font-weight: bold;
+    background-color: var(--secondary-color-blue);
+    border: 0.15rem solid var(--boder-link);
+    box-shadow: 0 2px 5px var(--boder-link);
+}
+.mainLink:hover {
+    color: var(--secondary-color-blue);
+    background-color: var(--main-color-blue-opacity);
+    border: 0.15rem solid var(--boder-link);
+    box-shadow: 0 2px 5px var(--main-color-blue);
+}
 
 @media screen and (max-width: 768px) {
-  .searchsection {
-    padding: 10vh;
-    box-sizing: border-box;
-  }
-
-  .heading {
-  font-size: 7vw;
-      line-hight: 10vw;
-      }
-
-
-  .subheading{
-    font-size: 5vw;
-    line-hight: 10vw;
+    .searchsection {
+        /* padding: 10vh; */ /* with flex this padding is not necessary */
+        box-sizing: border-box;
     }
 
+    .heading {
+        font-size: 7vw;
+        line-height: 10vw;
+    }
+
+    .subheading {
+        font-size: 5vw;
+        line-height: 10vw;
+    }
 }
 
-
-
-
-
+@media screen and (max-width: 32rem) {
+    .mainLink {
+        font-size: 4.5vw; /* adjust link size till 512px screen */
+    }
+}
+@media screen and (min-width: 48rem) {
+    .subheading {
+        /* add space between the elements on the searchSection */
+        margin: 1.5rem 0 2.3rem 0;
+    }
+}

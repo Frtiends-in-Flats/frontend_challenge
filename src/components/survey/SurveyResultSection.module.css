@@ -1,0 +1,17 @@
+/* restart link */
+.restartSurveyLink {
+    padding: 1.5rem;
+}
+.restartSurveyLink a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: var(--main-link);
+}
+.restartSurveyLink a:hover {
+    color: var(--main-color-blue-opacity);
+}
+@media screen and (max-width: 35rem) {
+    .restartSurveyLink a {
+        font-size: 4.5vw;
+    }
+}

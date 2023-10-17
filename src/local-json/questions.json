@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "question": "What's your preference for your living arrangement?",
+        "answers": ["I'd like to share a living space with roommates", "I prefer a private studio for myself"]
+    },
+    {
+        "id": 2,
+        "question": "What is your monthly rental budget?",
+        "answers": ["Less than $500", "$500 - $800", "Over $800"]
+    },
+    {
+        "id": 3,
+        "question": "What's your preferred location for your rental property?",
+        "answers": ["Near the university campus", "In a quiet residential neighborhood", "Close to the city center"]
+    },
+    {
+        "id": 4,
+        "question": "How long do you plan to rent the property?",
+        "answers": ["Short-term (3-6 months)", "Medium-term (6-12 months)", "Long-term (12+ months)"]
+    },
+    {
+        "id": 5,
+        "question": "Do you prefer furnished or unfurnished?",
+        "answers": ["Fully furnished", "Unfurnished, allowing you to bring your own furniture and belongings"]
+    }
+]
